@@ -16,13 +16,13 @@ const projects = [
   },
   {
     title: 'Merkato Store',
-    desc: 'Modern cross-platform e-commerce mobile app for Pan-African & Middle East markets. Features product browsing, cart management, and multi-region support.',
-    tags: ['Flutter', 'GetX', 'Dart', 'iOS & Android'],
+    desc: 'Modern cross-platform e-commerce mobile app for Pan-African & Middle East markets. Features product browsing, cart management, multi-region support, and integrated Stripe payment processing.',
+    tags: ['Flutter', 'GetX', 'Dart', 'Stripe', 'iOS & Android'],
     github: 'https://github.com/Nigus-Solomon-Dev/merkato-store-app',
     gradient: 'from-[#c8960c] to-[#e8b422]',
     initials: 'MS',
     problem: 'Regional shopping gaps',
-    solution: 'Cross-platform app',
+    solution: 'Cross-platform + Stripe',
   },
   {
     title: 'Blog App',
