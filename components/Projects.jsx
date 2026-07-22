@@ -16,13 +16,13 @@ const projects = [
   },
   {
     title: 'Merkato Store',
-    desc: 'Modern cross-platform e-commerce mobile app for Pan-African & Middle East markets. Features product browsing, cart management, multi-region support, and integrated Stripe payment processing.',
-    tags: ['Flutter', 'GetX', 'Dart', 'Stripe', 'iOS & Android'],
-    github: 'https://github.com/Nigus-Solomon-Dev/merkato-store-app',
+    desc: 'Full-stack e-commerce web app for Pan-African & Middle East markets. Built with the MERN stack and Next.js, featuring product browsing, cart management, multi-region support, and Stripe payment processing.',
+    tags: ['Next.js', 'MongoDB', 'Express', 'React', 'Stripe', 'Tailwind CSS'],
+    github: 'https://github.com/imnati/merkato_store',
     gradient: 'from-[#c8960c] to-[#e8b422]',
     initials: 'MS',
     problem: 'Regional shopping gaps',
-    solution: 'Cross-platform + Stripe',
+    solution: 'Full-stack + Stripe',
   },
   {
     title: 'Blog App',
