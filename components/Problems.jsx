@@ -7,21 +7,21 @@ import { Clock, Cpu, Database } from 'lucide-react'
 const problems = [
   {
     icon: Clock,
-    problem: 'Slow, frustrating booking flows',
-    solution: 'Streamlined to 3-4 steps, completed in under 2 minutes',
-    tag: 'Travel Value App',
+    problem: 'Manual, error-prone business operations',
+    solution: 'Real-time digital systems with role-based workflows and audit trails',
+    tag: 'ClubFlow',
   },
   {
     icon: Cpu,
-    problem: 'Manual, error-prone processes',
-    solution: 'Replaced with digital mobile and web apps that automate the workflow',
-    tag: 'Mobile & Web',
+    problem: 'Complex SaaS infrastructure and payments',
+    solution: 'Full-stack SaaS with Stripe subscriptions, webhooks, and tier-gated access',
+    tag: 'Melody',
   },
   {
     icon: Database,
-    problem: 'Complex data handling and storage',
-    solution: 'Clean full-stack architecture with MongoDB and PostgreSQL',
-    tag: 'Backend Systems',
+    problem: 'Fragmented hiring and job search processes',
+    solution: 'End-to-end job marketplace with messaging, scheduling, and dashboards',
+    tag: 'JobLink',
   },
 ]
 

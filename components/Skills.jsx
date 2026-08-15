@@ -13,22 +13,22 @@ const skillGroups = [
   {
     category: 'Frontend',
     icon: Layout,
-    skills: ['React', 'Next.js', 'Tailwind CSS', 'HTML', 'CSS', 'JavaScript'],
+    skills: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'Tailwind CSS'],
   },
   {
     category: 'Backend',
     icon: Server,
-    skills: ['Node.js', 'Express.js', 'REST APIs', 'MVC Pattern'],
+    skills: ['Node.js', 'Express.js', 'NestJS', 'REST APIs', 'JWT', 'WebSockets'],
   },
   {
     category: 'Database',
     icon: Database,
-    skills: ['MongoDB', 'PostgreSQL', 'Mongoose'],
+    skills: ['MongoDB', 'PostgreSQL', 'Prisma', 'Mongoose'],
   },
   {
-    category: 'Tools',
+    category: 'Tools & Integrations',
     icon: Wrench,
-    skills: ['Git', 'GitHub', 'Postman', 'VS Code', 'Vercel'],
+    skills: ['Git', 'GitHub', 'Stripe', 'Chapa', 'Cloudinary', 'Postman', 'Vercel'],
   },
 ]
 

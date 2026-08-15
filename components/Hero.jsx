@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="max-w-2xl mx-auto w-full flex flex-col items-center text-center gap-5 pt-16">
 
         <motion.p {...fadeUp(0.1)} className="text-[#c8960c] font-semibold text-sm uppercase tracking-widest">
-          Full-Stack Developer · Addis Ababa, Ethiopia
+          Full-Stack & Mobile App Developer · Addis Ababa, Ethiopia
         </motion.p>
 
         <motion.h1
@@ -25,7 +25,7 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p {...fadeUp(0.3)} className="text-[#5a6a8a] text-lg leading-relaxed">
-          I build clean, fast web and mobile apps — from flight booking to e-commerce — that solve real problems.
+          I build practical software that solves real problems — from SaaS platforms and business systems to mobile apps and REST APIs.
         </motion.p>
 
         <motion.div {...fadeUp(0.4)} className="flex gap-4 pt-2">

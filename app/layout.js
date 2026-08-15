@@ -8,22 +8,26 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'Nigus Solomon | Full-Stack Developer',
+  title: 'Nigus Solomon | Full-Stack & Mobile App Developer',
   description:
-    'Full-Stack Developer based in Addis Ababa, Ethiopia. Specializing in Flutter, React, Next.js, Node.js, and modern web & mobile development.',
+    'Full-Stack & Mobile App Developer specializing in MERN, Next.js, and Flutter. Based in Addis Ababa, Ethiopia. Building SaaS, business systems, REST APIs, and real-time applications.',
   keywords: [
     'Full-Stack Developer',
+    'Mobile App Developer',
     'Flutter Developer',
     'React Developer',
     'Next.js',
+    'MERN Stack',
+    'NestJS',
     'Addis Ababa',
     'Ethiopia',
     'Nigus Solomon',
   ],
   authors: [{ name: 'Nigus Solomon' }],
   openGraph: {
-    title: 'Nigus Solomon | Full-Stack Developer',
-    description: 'Full-Stack Developer based in Addis Ababa, Ethiopia.',
+    title: 'Nigus Solomon | Full-Stack & Mobile App Developer',
+    description:
+      'Full-Stack & Mobile App Developer specializing in MERN, Next.js, and Flutter. Based in Addis Ababa, Ethiopia.',
     type: 'website',
   },
 }

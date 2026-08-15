@@ -13,13 +13,13 @@ const services = [
   },
   {
     icon: Globe,
-    title: 'Web Development',
-    desc: 'Full-stack web apps with Next.js, React, Node.js, and Express — from UI to database.',
+    title: 'Full-Stack Web & SaaS',
+    desc: 'End-to-end web apps and SaaS platforms with Next.js, React, Node.js, NestJS — from UI to database to payments.',
   },
   {
     icon: Server,
-    title: 'Backend & APIs',
-    desc: 'RESTful APIs and database design with MongoDB and PostgreSQL, built for scale and reliability.',
+    title: 'Backend, APIs & Integrations',
+    desc: 'Scalable REST APIs, real-time systems with WebSockets, JWT auth, Stripe payments, and cloud integrations.',
   },
 ]
 

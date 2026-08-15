@@ -5,44 +5,45 @@ import { useRef } from 'react'
 
 const projects = [
   {
+    title: 'ClubFlow',
+    desc: 'Nightclub management system that digitizes ordering, inventory, sales reconciliation, and staff accountability. Features real-time waiter/barman workflows, role-based access, audit history, and automated inventory reconciliation.',
+    tags: ['Next.js', 'TypeScript', 'NestJS', 'PostgreSQL', 'Prisma', 'WebSockets', 'Tailwind CSS'],
+    github: 'https://github.com/Nigus-Solomon-Dev/ClubFlow',
+    gradient: 'from-[#1a2a4a] to-[#0d1f3c]',
+    initials: 'CF',
+    problem: 'Manual nightclub operations',
+    solution: 'Real-time digital system',
+  },
+  {
+    title: 'Melody',
+    desc: 'Subscription-based music streaming SaaS with search, recommendations, and playback. Features 4 pricing tiers, Stripe payments & webhooks, billing portal, and tier-gated access to full playback, lyrics, and lossless audio.',
+    tags: ['Next.js', 'Node.js', 'Express', 'MongoDB', 'Stripe', 'JWT'],
+    github: 'https://github.com/Nigus-Solomon-Dev/melody-music-saas',
+    live: 'https://melody-music-saas.vercel.app',
+    gradient: 'from-[#2a1a4a] to-[#4a2a8a]',
+    initials: 'ML',
+    problem: 'No accessible music SaaS',
+    solution: 'Stripe-powered streaming',
+  },
+  {
+    title: 'JobLink',
+    desc: 'Full-stack job marketplace connecting Ethiopian job seekers with employers. Features job posting, search & filters, applications, messaging, notifications, interview scheduling, dashboards, resume uploads, and Telegram bot integration.',
+    tags: ['Next.js', 'TypeScript', 'Node.js', 'MongoDB', 'JWT', 'Cloudinary'],
+    github: 'https://github.com/Nigus-Solomon-Dev/joblink',
+    gradient: 'from-[#1a3a2a] to-[#2a6a4a]',
+    initials: 'JL',
+    problem: 'Fragmented job market',
+    solution: 'Full-stack marketplace',
+  },
+  {
     title: 'Travel Value',
-    desc: 'Flight booking app that reduces the booking flow to 3-4 steps, completed in under 2 minutes. Integrates real REST APIs for flight search, price verification, hold, and payment.',
-    tags: ['Flutter', 'GetX', 'REST APIs', 'Dart'],
+    desc: 'Cross-platform flight booking app that reduces the booking flow to 3-4 steps, completed in under 2 minutes. Integrates real REST APIs for flight search, price verification, hold, and payment.',
+    tags: ['Flutter', 'Dart', 'GetX', 'REST APIs'],
     github: 'https://github.com/Nigus-Solomon-Dev/travel-value-app',
     gradient: 'from-[#1a2a4a] to-[#2d4a8a]',
     initials: 'TV',
     problem: 'Slow booking flows',
     solution: 'Under 2 minutes',
-  },
-  {
-    title: 'Merkato Store',
-    desc: 'Full-stack e-commerce web app for Pan-African & Middle East markets. Built with the MERN stack and Next.js, featuring product browsing, cart management, multi-region support, and Stripe payment processing.',
-    tags: ['Next.js', 'MongoDB', 'Express', 'React', 'Stripe', 'Tailwind CSS'],
-    github: 'https://github.com/imnati/merkato_store',
-    gradient: 'from-[#c8960c] to-[#e8b422]',
-    initials: 'MS',
-    problem: 'Regional shopping gaps',
-    solution: 'Full-stack + Stripe',
-  },
-  {
-    title: 'Blog App',
-    desc: 'Full-stack blog platform with Express.js and MongoDB. Features complete CRUD operations, MVC architecture, user authentication, and clean content management.',
-    tags: ['Express.js', 'MongoDB', 'MVC', 'Node.js'],
-    github: 'https://github.com/Nigus-Solomon-Dev/blog-app',
-    gradient: 'from-[#1a3a2a] to-[#2a6a4a]',
-    initials: 'BA',
-    problem: 'Complex content management',
-    solution: 'Clean CRUD system',
-  },
-  {
-    title: 'Notes App',
-    desc: 'Full-stack notes application with persistent database storage. Built with Next.js and MongoDB, featuring full CRUD operations and a clean Tailwind UI.',
-    tags: ['Next.js', 'MongoDB', 'Tailwind CSS', 'JavaScript'],
-    github: 'https://github.com/Nigus-Solomon-Dev/notes-app',
-    gradient: 'from-[#2a1a4a] to-[#4a2a8a]',
-    initials: 'NA',
-    problem: 'No persistent note-taking',
-    solution: 'Full-stack CRUD app',
   },
 ]
 
@@ -146,7 +147,17 @@ export default function Projects() {
                     <GitHubIcon />
                     View on GitHub
                   </a>
-                  <div className="w-8 h-0.5 bg-[#c8960c] group-hover:w-16 transition-all duration-300" />
+                  {project.live && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm font-semibold text-[#c8960c] hover:underline"
+                    >
+                      Live Demo →
+                    </a>
+                  )}
+                  {!project.live && <div className="w-8 h-0.5 bg-[#c8960c] group-hover:w-16 transition-all duration-300" />}
                 </div>
               </div>
             </motion.div>
